@@ -1,0 +1,158 @@
+h2{
+    font-size: 2.8rem;
+    font-family: 'Raleway', sans-serif;
+    color:black
+    
+}
+
+h2 span{
+    font-size: 4rem;
+    font-family: 'Lato', cursive;
+    color: #e082a8
+}
+
+
+
+
+.sociales ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.sociales ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.sociales ul li a::before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.4rem;
+    content: '\f08e';
+    -webkit-font-smoothing: antialiased;
+    font-size: 2rem;
+    color: #e082a8;
+
+}
+
+.sociales ul li a[href="https://www.facebook.com/rolaa.gzz"]::before{
+    content:'\f230';
+}
+
+.sociales ul li a[href="https://twitter.com/"]::before{
+    content:'\f081';
+}
+
+.sociales ul li a[href="https://www.instagram.com/rolaa.gzz/"]::before{
+    content: '\f16d';
+}
+
+.sociales ul li a[href="https://www.pinterest.com.mx/"]::before{
+    content: '\f0d2'
+}
+
+.navegacion {
+    background-color: #8ed3cc
+}
+
+.nav-link {
+    color:white;
+    font-size: 1.4rem;
+    transition: background-color .5s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.nav-link:hover{
+    background-color: #39a68b;
+    color:rgb(0, 0, 0);
+}
+
+.nuevo-sitio p {
+    font-family: 'Raleway', sans-serif;
+    color:#979797;
+    font-size: 1.5rem;
+}
+
+.horario {
+    background-color: #8ed3cc;
+    color: #ffffff
+}
+
+.horario h2{
+    font-size: 2.2rem;
+}
+
+.horario .table{
+    border: 2px solid #e082a8;
+}
+
+.horario .table thead{
+    background-color: #e082a8;
+}
+
+.horario .table td,
+.horario .table thead th {
+    border:none;
+}
+
+.horario .table tbody tr td {
+    padding: .35rem;
+    font-size:1.3rem;
+    color: #ffffff;
+}
+
+.bg-horario {
+    background-image: url(../assets/pasteleria2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.precios {
+    background-color: #8ed3cc;
+    color: #ffffff
+}
+
+.precios h2{
+    font-size: 2.2rem;
+}
+.precios .table{
+    border: 2px solid #e082a8
+}
+
+.precios .table thead{
+    background-color: #e082a8;
+}
+
+.precios .table td,
+.precios .table thead th {
+    border:none;
+}
+
+.precios .table tbody tr td {
+    padding: .35rem;
+    font-size:1.3rem;
+    color: #ffffff;
+}
+
+.bg-precios {
+    background-image: url(../assets/pasteleria3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.copyright {
+    color: #979797;
+    font-size: .8rem;
+}
+
+aside {
+    width: 260px;
+    height: 100%;
+    position: fixed;
+    margin-top: 56px;
+    top: 0;
+}
+
